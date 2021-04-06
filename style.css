@@ -1,0 +1,141 @@
+* {
+	font-family: Arial; Helvetica, sans-serif;
+}
+
+#cabecalho {
+	text-align: center;
+	padding: 40px;
+	padding-top: 5px;
+	background-color: #262626;
+}
+
+#menu {
+	padding: 15px;
+}
+
+body {
+	background-color: #808080;
+}
+
+h1#formatacao-titulo {
+	color: white;
+	margin-bottom: 5px;
+}
+
+h2#builds {
+	font-size: 40px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	color: white;
+}
+
+h3#as-melhores {
+	margin-top: 10px;
+	margin-bottom: 40px;
+	color: white;
+
+}
+ 
+#menu a {
+	padding-right: 55px;
+	padding-left: 55px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	margin: 20px;
+	font-size: 20px;
+	text-decoration: none;
+	color: black;
+	position: static;
+}
+
+#menu a:link {
+	background-color: #f7e414;
+}
+
+
+#menu a:hover {
+	background-color: gray;
+}
+
+#cor a {
+	background-color: yellow;
+}
+
+#lado1 {
+	width: 664px;
+	padding: 5px;
+	text-align: center;
+	position: relative;
+	top: 10px;
+	background-color: #fafafa;
+	padding-bottom: 46px;
+}
+
+#lado1 a {
+	text-decoration: none;
+	font-family: Arial Black, Helvetica, sans-serif;
+}
+
+#lado2 {
+	width: 664px;
+	text-align: center;
+	position: relative;
+	bottom: 423px;
+	left: 722px; 
+	background-color: white;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 7px;
+}
+
+#lado1 p {
+	text-align: justify;
+	padding-right: 20px;
+	padding-left: 20px; 
+}
+
+#container {
+	background-color: #808080;
+}
+
+#logo-time {
+	width: 250px;
+}
+
+#players {
+	width: 250px;
+	position: relative;
+	bottom: 30px;
+	right: 30px;
+}
+
+#lado1 h2 {
+	text-align: left;
+	position: relative;
+	left: 20px;
+}
+
+#lado2 h2 {
+	text-align: left;
+	position: relative;
+	left: 20px;
+}
+
+#lado2 p {
+	width: 600px;
+	position: relative;
+	left: 20px;
+	text-align: justify;
+}
+
+#lado2 img {
+	position: relative;
+	right: 80px;
+}
+
+.imagens {
+	width: 1400px;
+	text-align: center;
+	position: relative;
+	top: 100p;
+}
