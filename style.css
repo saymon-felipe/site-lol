@@ -1,20 +1,44 @@
 * {
 	font-family: Arial; Helvetica, sans-serif;
+	margin: 0px; /**/
+	padding: 0px; /**/
 }
 
+/*INÍCIO CABEÇALHO*/
 #cabecalho {
 	text-align: center;
 	padding: 40px;
 	padding-top: 5px;
 	background-color: #262626;
+	background-image: url(imagens/ahri.jpg);
+	background-position: 50% 20%;
+	background-size: 150%;
+}
+
+#fundo {
+	margin-top: 30px;
+	background-color: rgba(0,0,0,0.8);
 }
 
 #menu {
 	padding: 15px;
 }
 
-body {
-	background-color: #808080;
+#menu ul {
+    padding:0px;
+    margin:0px;
+    list-style:none;
+}
+
+#menu ul li {
+
+	display: inline-flex;
+}
+
+#titulo img {
+	width: 300px;
+	padding-top: 50px;
+	padding-bottom: 30px;
 }
 
 h1#formatacao-titulo {
@@ -22,19 +46,7 @@ h1#formatacao-titulo {
 	margin-bottom: 5px;
 }
 
-h2#builds {
-	font-size: 40px;
-	margin-top: 10px;
-	margin-bottom: 20px;
-	color: white;
-}
 
-h3#as-melhores {
-	margin-top: 10px;
-	margin-bottom: 40px;
-	color: white;
-
-}
  
 #menu a {
 	padding-right: 55px;
@@ -53,50 +65,39 @@ h3#as-melhores {
 }
 
 
-#menu a:hover {
+#menu a:hover, #selecionado a {
 	background-color: gray;
 }
+/*FIM CABEÇALHO*/
 
-#cor a {
-	background-color: yellow;
+
+/*BODY*/
+#container {
+	display: flex;
+	flex-wrap: wrap;
 }
 
-#lado1 {
-	width: 664px;
+.caixas {
 	padding: 5px;
 	text-align: center;
-	position: relative;
-	top: 10px;
-	background-color: #fafafa;
-	padding-bottom: 46px;
+	background-color: white;
+	width: 661px;
+	margin: 20px;
 }
 
-#lado1 a {
+.caixas a {
 	text-decoration: none;
 	font-family: Arial Black, Helvetica, sans-serif;
 }
 
-#lado2 {
-	width: 664px;
-	text-align: center;
-	position: relative;
-	bottom: 423px;
-	left: 722px; 
-	background-color: white;
-	padding-right: 10px;
-	padding-left: 10px;
-	padding-top: 7px;
-}
-
-#lado1 p {
+.caixas p {
 	text-align: justify;
 	padding-right: 20px;
-	padding-left: 20px; 
+	padding-left: 20px;
+	padding-bottom: 15px; 
 }
 
-#container {
-	background-color: #808080;
-}
+
 
 #logo-time {
 	width: 250px;
@@ -109,33 +110,69 @@ h3#as-melhores {
 	right: 30px;
 }
 
-#lado1 h2 {
+.caixas h2 {
 	text-align: left;
 	position: relative;
 	left: 20px;
+	padding: 15px; 
 }
 
-#lado2 h2 {
-	text-align: left;
-	position: relative;
-	left: 20px;
-}
-
-#lado2 p {
-	width: 600px;
-	position: relative;
-	left: 20px;
-	text-align: justify;
-}
-
-#lado2 img {
-	position: relative;
-	right: 80px;
-}
-
-.imagens {
-	width: 1400px;
+#caixa-3 {
+	padding: 5px;
 	text-align: center;
-	position: relative;
-	top: 100p;
+	background-color: white;
+	width: 100%;
+	margin: 20px;
 }
+
+#logo-time {
+	position: relative;
+	right: 10px;
+}
+
+body {
+	background-color: #808080;
+}
+
+h2#builds {
+	font-size: 40px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	color: white;
+}
+
+h3#as-melhores {
+	margin-top: 10px;
+	margin-bottom: 40px;
+	color: white;
+}
+
+#cor a {
+	background-color: yellow;
+}
+
+
+/*FIM BODY*/
+
+/*COMEÇO RODAPÉ*/
+
+#rodape {
+	text-align: center;
+	background-color: black;
+	padding: 0px;
+	margin: 0px; 
+	width: 100%;
+	
+}
+
+#rodape h3 {
+	color: white;
+	font-size: 15px;
+	padding-bottom: 10px;
+}
+
+#video-rodape {
+
+}
+
+/*FIM RODAPÉ*/
