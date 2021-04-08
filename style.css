@@ -12,7 +12,7 @@
 	background-color: #262626;
 	background-image: url(imagens/ahri.jpg);
 	background-position: 50% 20%;
-	background-size: 150%;
+	background-size: 200%;
 }
 
 #fundo {
@@ -87,6 +87,9 @@ h1#formatacao-titulo {
 	background-color: white;
 	width: 600px;
 	margin: 20px;
+	-webkit-box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.75);
 }
 
 .caixas a {
@@ -127,6 +130,9 @@ h1#formatacao-titulo {
 	background-color: white;
 	width: 91.5%;
 	margin: 20px;
+	-webkit-box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.75);
 }
 
 #logo-time {
@@ -136,6 +142,9 @@ h1#formatacao-titulo {
 
 body {
 	background-color: #808080;
+	background-image: url(imagens/background-kda.jpg);
+	background-size: 100%;
+
 
 }
 
