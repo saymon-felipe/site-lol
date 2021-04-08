@@ -7,8 +7,8 @@
 /*INÍCIO CABEÇALHO*/
 #cabecalho {
 	text-align: center;
-	padding: 40px;
-	padding-top: 5px;
+	padding: 50px;
+	padding-top: 10px;
 	background-color: #262626;
 	background-image: url(imagens/ahri.jpg);
 	background-position: 50% 20%;
@@ -36,9 +36,9 @@
 }
 
 #titulo img {
-	width: 300px;
-	padding-top: 50px;
-	padding-bottom: 30px;
+	width: 25%;
+	padding: 0;
+	margin-top: 30px;
 }
 
 h1#formatacao-titulo {
@@ -53,11 +53,12 @@ h1#formatacao-titulo {
 	padding-left: 55px;
 	padding-top: 25px;
 	padding-bottom: 25px;
-	margin: 20px;
+	margin: 15px;
 	font-size: 20px;
 	text-decoration: none;
 	color: black;
-	position: static;
+	display: inline-block;
+	width: 130px;
 }
 
 #menu a:link {
