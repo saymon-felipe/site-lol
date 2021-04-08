@@ -1,5 +1,5 @@
 * {
-	font-family: Arial; Helvetica, sans-serif;
+	font-family: Verdana, sans-serif, sans-serif;
 	margin: 0px; /**/
 	padding: 0px; /**/
 }
@@ -58,16 +58,18 @@ h1#formatacao-titulo {
 	text-decoration: none;
 	color: black;
 	display: inline-block;
-	width: 130px;
+	width: 155px;
+	font-family: Arial Black, sans-serif;
 }
 
 #menu a:link {
-	background-color: #f7e414;
+	background-color: #e7a3ff;
 }
 
 
 #menu a:hover, #selecionado a {
-	background-color: gray;
+	background-color: #980ac9;
+	color: white;
 }
 /*FIM CABEÇALHO*/
 
@@ -82,6 +84,8 @@ h1#formatacao-titulo {
 }
 
 .caixas {
+	font-family: FreeMono, monospace, sans-serif;
+	font-weight: 500;
 	padding: 5px;
 	text-align: center;
 	background-color: white;
@@ -163,6 +167,16 @@ h3#as-melhores {
 
 #cor a {
 	background-color: yellow;
+}
+
+#caixa-3 ul {
+	text-align: left;
+	padding: 30px;
+	padding-right: 10px;
+}
+
+#caixa-3 li {
+	
 }
 
 
