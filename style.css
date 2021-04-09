@@ -130,6 +130,7 @@ h1#formatacao-titulo {
 
 #caixa-3 {
 	padding: 5px;
+	height: 465px;
 	text-align: center;
 	background-color: white;
 	width: 91.5%;
@@ -137,6 +138,18 @@ h1#formatacao-titulo {
 	-webkit-box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.75);
 	-moz-box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.75);
 	box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+#caixa-3 h2 {
+	padding-top: 20px;
+}
+
+#caixa-3 p {
+	margin-right: 20px;
+	margin-left: 20px;
+	text-align: center;
+	position: relative;
+	top: 150px;
 }
 
 #logo-time {
@@ -171,14 +184,24 @@ h3#as-melhores {
 
 #caixa-3 ul {
 	text-align: left;
-	padding: 30px;
-	padding-right: 10px;
+	padding: 80px;
+	padding-bottom: 10px;
+
 }
 
-#caixa-3 li {
-	
+#conteudos {
+	float: left;
 }
 
+#caixa-3 img {
+	position: relative;
+	left: 300px;
+	bottom: 190px;
+}
+
+#caixa-3 a {
+	text-decoration: none;
+}
 
 /*FIM BODY*/
 
@@ -199,8 +222,17 @@ h3#as-melhores {
 	padding-bottom: 10px;
 }
 
-#video-rodape {
-
+#botao {
+	cursor: pointer;
+	position: absolute;
+	top:1790px;
+	left: 525px;
+	color: white;
+	background-color: rgba(0,0,0,0);
+	padding: 40px;
+	padding-right: 60px;
+	padding-left: 60px; 
+	font-size: 40px;
+	border: 2px solid white;
 }
-
 /*FIM RODAPÉ*/
